@@ -11,10 +11,10 @@
           <img src="img/logo.svg" width="" height="" alt="Логотип Sity of Sedona">
         </a>
         <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="photoandvideo.html">Фото и видео</a></li>
-          <li><a href="statemap.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li class="site-navigation__info"><a href="#info.html">Информация</a></li>
+          <li class="site-navigation__photoandvideo"><a href="#photoandvideo.html">Фото и видео</a></li>
+          <li class="site-navigation__statemap"><a href="#statemap.html">Карта штата</a></li>
+          <li class="site-navigation__hotels"><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -25,10 +25,10 @@
         <!-- Здесь будет форма -->
       </section>
 
-      <section class="found-and-sort">
-        <h2>Найдено: 3</h2>
-        <div class="sort">
-          <p>Сортировка:</p>
+      <section class="sort">
+        <p class="sort__found">Найдено: 3</p>
+        <div class="sort__category">
+          <h3>Сортировка:</h3>
           <ul class="sort__list">
             <li>
               <a class="sort__item" href="#">По цене</a>
@@ -49,83 +49,77 @@
 
       <div class="catalog__list">
         <section class="catalog__item">
-          <a class="catalog__img" href="#">
-            <img src="img/hotel-amara.png" width="135" height="90" alt="Amara Resort & Spa">
-          </a>
+          <img src="img/hotel-amara.png" width="135" height="90" alt="Amara Resort & Spa">
           <div class="catalog__content">
             <h3>
               <a class="catalog__title" href="#">Amara Resort & Spa</a>
             </h3>
-            <div class="catalog__button">
-              <div class="catalog__info">Гостиница</div>
-              <a class="btn btn-blue" href="#">Подробнее</a>
+            <div class="catalog__text">
+              <span class="catalog__info">Гостиница</span>
+              <span class="catalog__info">От 4000 Р.</span>
             </div>
             <div class="catalog__button">
-              <div class="catalog__info">От 4000 Р.</div>
-              <a class="btn btn-brown" href="#">Забронировать</a>
+              <a class="catalog__button_blue" href="#">Подробнее</a>
+              <a class="catalog__button_brown" href="#">Забронировать</a>
             </div>
           </div>
-          <div class="catalog__rating">
+          <div class="catalog__star-raiting">
             <div class="raiting__stars">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <p>Рейтинг: 8,5</p>
+            <p class="raiting__value">Рейтинг: 8,5</p>
           </div>
         </section>
 
         <section class="catalog__item">
-          <a class="catalog__img" href="#">
-            <img src="img/hotel-desert.png" width="135" height="90" alt="Desert Quail Inn">
-          </a>
+          <img src="img/hotel-desert.png" width="135" height="90" alt="Desert Quail Inn">
           <div class="catalog__content">
             <h3>
               <a class="catalog__title" href="#">Desert Quail Inn</a>
             </h3>
-            <div class="catalog__button">
-              <div class="catalog__info">Мотель</div>
-              <a class="btn btn-blue" href="#">Подробнее</a>
+            <div class="catalog__text">
+              <span class="catalog__info">Мотель</span>
+              <span class="catalog__info">От 3000 Р.</span>
             </div>
             <div class="catalog__button">
-              <div class="catalog__info">От 3000 Р.</div>
-              <a class="btn btn-brown" href="#">Забронировать</a>
+              <a class="catalog__button_blue" href="#">Подробнее</a>
+              <a class="catalog__button_brown" href="#">Забронировать</a>
             </div>
           </div>
-          <div class="catalog__rating">
+          <div class="catalog__star-raiting">
             <div class="raiting__stars">
               <span></span>
               <span></span>
               <span></span>
             </div>
-            <p>Рейтинг: 8,9</p>
+            <p class="raiting__value">Рейтинг: 8,9</p>
           </div>
         </section>
 
         <section class="catalog__item">
-          <a class="catalog__img" href="#">
-            <img src="img/hotel-villas.png" width="135" height="90" alt="Villas at Poco Diablo">
-          </a>
+          <img src="img/hotel-villas.png" width="135" height="90" alt="Villas at Poco Diablo">
           <div class="catalog__content">
             <h3>
               <a class="catalog__title" href="#">Villas at Poco Diablo</a>
             </h3>
-            <div class="catalog__button">
-              <div class="catalog__info">Мотель</div>
-              <a class="btn btn-blue" href="#">Апартаменты</a>
+            <div class="catalog__text">
+              <span class="catalog__info">Апартаменты</span>
+              <span class="catalog__info">От 2000 Р.</span>
             </div>
             <div class="catalog__button">
-              <div class="catalog__info">От 2000 Р.</div>
-              <a class="btn btn-brown" href="#">Забронировать</a>
+              <a class="catalog__button_blue" href="#">Подробнее</a>
+              <a class="catalog__button_brown" href="#">Забронировать</a>
             </div>
           </div>
-          <div class="catalog__rating">
+          <div class="catalog__star-raiting">
             <div class="raiting__stars">
               <span></span>
               <span></span>
             </div>
-            <p>Рейтинг: 9,2</p>
+            <p class="raiting__value">Рейтинг: 9,2</p>
           </div>
         </section>
       </div>
