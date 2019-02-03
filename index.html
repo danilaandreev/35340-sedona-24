@@ -7,28 +7,29 @@
   <body>
     <header class="header">
       <nav class="main-navigation">
-        <a class="header__logo" href="logo.html">
-          <img src="img/logo.svg" width="" height="" alt="Логотип Sity of Sedona">
+        <a class="header__logo">
+          <img src="img/logo.svg" width="" height="" alt="Логотип City of Sedona">
         </a>
         <ul class="site-navigation">
-          <li class="site-navigation__info"><a href="#info.html">Информация</a></li>
-          <li class="site-navigation__photoandvideo"><a href="#photoandvideo.html">Фото и видео</a></li>
-          <li class="site-navigation__statemap"><a href="#statemap.html">Карта штата</a></li>
-          <li class="site-navigation__hotels"><a href="hotels.html">Гостиницы</a></li>
+          <li class="site-navigation__item"><a href="#">Информация</a></li>
+          <li class="site-navigation__item"><a href="#">Фото и видео</a></li>
+          <li class="site-navigation__item"><a href="statemap.html">Карта штата</a></li>
+          <li class="site-navigation__item"><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
 
     <main class="container">
-      <section class="profit">
-        <img src="img/welcome.svg" width="" height="" alt="Welcome to the gogeous Sedona">
-        <h1 class="visually-hidden">Welcome to the gorgeous Sedona</h1>
-        <h2 class="visually-hidden">Описание</h2>
-        <p class="profit__text">Седона-небольшой городок в Аризоне, заслуживающий большего!</p>
-      </section>
+      <h1 class="visually-hidden">Welcome to the gorgeous Sedona</h1>
+      <div class="background-images">
+        <img src="img/welcome.svg" width="" height="" alt="Welcome to the gorgeous Sedona">
+        <img src="img/2.svg" width="" height="" alt="">
+        <img src="img/3.svg" width="" height="" alt="">
+      </div>
 
       <section class="features">
         <h2 class="visually-hidden">Преймущества</h2>
+        <p class="features__text-sedona">Седона-небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="features__text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         <div class="features__list">
           <div class="features__item">
@@ -40,20 +41,18 @@
 
     <section class="hotel-search">
       <h2 class="hotel-search__title">Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <p class="hotel-search__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
       <a class="hotel-search__button" href="#search.html">Поиск гостиницы в Седоне</a>
       <!--Здесь будет форма-->
     </section>
 
     <footer class="footer">
       <p class="footer__hashtag">#VisitSedona</p>
-      <div class="footer__socials">
-        <ul>
-          <li><a class="social__button" href="#">Twitter</a></li>
-          <li><a class="social__button" href="#">Facebook</a></li>
-          <li><a class="social__button" href="#">Youtube</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li><a class="social__button" href="#">Twitter</a></li>
+        <li><a class="social__button" href="#">Facebook</a></li>
+        <li><a class="social__button" href="#">Youtube</a></li>
+      </ul>
       <div class="footer__copyright">
         <b>Website by</b>
         <a class="footer__logo" href="https://htmlacademy.ru/">

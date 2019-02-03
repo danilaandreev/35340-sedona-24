@@ -11,10 +11,10 @@
           <img src="img/logo.svg" width="" height="" alt="Логотип Sity of Sedona">
         </a>
         <ul class="site-navigation">
-          <li class="site-navigation__info"><a href="#info.html">Информация</a></li>
-          <li class="site-navigation__photoandvideo"><a href="#photoandvideo.html">Фото и видео</a></li>
-          <li class="site-navigation__statemap"><a href="#statemap.html">Карта штата</a></li>
-          <li class="site-navigation__hotels"><a href="hotels.html">Гостиницы</a></li>
+          <li class="site-navigation__item"><a href="#">Информация</a></li>
+          <li class="site-navigation__item"><a href="#">Фото и видео</a></li>
+          <li class="site-navigation__item"><a href="statemap.html">Карта штата</a></li>
+          <li class="site-navigation__item_active"><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -47,8 +47,8 @@
         </div>
       </section>
 
-      <div class="catalog__list">
-        <section class="catalog__item">
+      <ul class="catalog__list">
+        <li class="catalog__item">
           <img src="img/hotel-amara.png" width="135" height="90" alt="Amara Resort & Spa">
           <div class="catalog__content">
             <h3>
@@ -63,7 +63,7 @@
               <a class="catalog__button_brown" href="#">Забронировать</a>
             </div>
           </div>
-          <div class="catalog__star-raiting">
+          <div class="catalog__stars">
             <div class="raiting__stars">
               <span></span>
               <span></span>
@@ -72,9 +72,9 @@
             </div>
             <p class="raiting__value">Рейтинг: 8,5</p>
           </div>
-        </section>
+        </li>
 
-        <section class="catalog__item">
+        <li class="catalog__item">
           <img src="img/hotel-desert.png" width="135" height="90" alt="Desert Quail Inn">
           <div class="catalog__content">
             <h3>
@@ -89,7 +89,7 @@
               <a class="catalog__button_brown" href="#">Забронировать</a>
             </div>
           </div>
-          <div class="catalog__star-raiting">
+          <div class="catalog__stars">
             <div class="raiting__stars">
               <span></span>
               <span></span>
@@ -97,9 +97,9 @@
             </div>
             <p class="raiting__value">Рейтинг: 8,9</p>
           </div>
-        </section>
+        </li>
 
-        <section class="catalog__item">
+        <li class="catalog__item">
           <img src="img/hotel-villas.png" width="135" height="90" alt="Villas at Poco Diablo">
           <div class="catalog__content">
             <h3>
@@ -114,26 +114,24 @@
               <a class="catalog__button_brown" href="#">Забронировать</a>
             </div>
           </div>
-          <div class="catalog__star-raiting">
+          <div class="catalog__stars">
             <div class="raiting__stars">
               <span></span>
               <span></span>
             </div>
             <p class="raiting__value">Рейтинг: 9,2</p>
           </div>
-        </section>
-      </div>
+        </li>
+      </ul>
     </main>
 
     <footer class="footer">
       <p class="footer__hashtag">#VisitSedona</p>
-      <div class="footer__socials">
-        <ul>
-          <li><a class="social__button" href="#">Twitter</a></li>
-          <li><a class="social__button" href="#">Facebook</a></li>
-          <li><a class="social__button" href="#">Youtube</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li><a class="social__button" href="#">Twitter</a></li>
+        <li><a class="social__button" href="#">Facebook</a></li>
+        <li><a class="social__button" href="#">Youtube</a></li>
+      </ul>
       <div class="footer__copyright">
         <b>Website by</b>
         <a class="footer__logo" href="https://htmlacademy.ru/">
