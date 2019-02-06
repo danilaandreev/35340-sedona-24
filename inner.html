@@ -14,7 +14,7 @@
           <li class="site-navigation__item"><a href="#">Информация</a></li>
           <li class="site-navigation__item"><a href="#">Фото и видео</a></li>
           <li class="site-navigation__item"><a href="#">Карта штата</a></li>
-          <li class="site-navigation__item site-navigation__item_active">Гостиницы</li>
+          <li class="site-navigation__item site-navigation__item_active"><a>Гостиницы</a></li>
         </ul>
       </nav>
     </header>
@@ -22,7 +22,44 @@
     <main class="container">
       <section class="filters">
         <h2 class="visually-hidden">Фильтр жилья</h2>
-        <!-- Здесь будет форма -->
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <ul>
+              <li class="filter__option">
+                <input class="visually-hidden filter__input-checkbox" type="checkbox" name="pond" id="filter__pond" checked>
+                <label for="filter__pond">Бассейн</label>
+              </li>
+              <li class="filter__option">
+                <input class="visually-hidden filter__input-checkbox" type="checkbox" name="сar-park" id="filter__car-park">
+                <label for="filter__car-park">Парковка</label>
+              </li>
+              <li class="filter__option">
+                <input class="visually-hidden filter__input-checkbox" type="checkbox" name="wi-fi" id="filter__wi-fi">
+                <label for="filter__wi-fi">Wi-fi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья:</legend>
+            <ul>
+              <li class="filter__option">
+                <input class="visually-hidden filter__input-checkbox" type="checkbox" name="hotel" id="filter__hotel" checked>
+                <label for="filter__hotel">Гостиница</label>
+              </li>
+              <li class="filter__option">
+                <input class="visually-hidden filter__input-checkbox" type="checkbox" name="motel" id="filter__motel" checked>
+                <label for="filter__motel">Мотель</label>
+              </li>
+              <li class="filter__option">
+                <input class="visually-hidden filter__input-checkbox" type="checkbox" name="apartments" id="filter__apartments" checked>
+                <label for="filter__apartments">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <!-- Слайдер -->
+          <button type="submit" class="filter__button button">Показать</button>
+        </form>
       </section>
 
       <section class="sort">

@@ -40,7 +40,25 @@
         <h2 class="hotel-search__title">Заинтересовались?</h2>
         <p class="hotel-search__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <button class="hotel-search__button" type="button">Поиск гостиницы в Седоне</button>
-        <!--Здесь будет форма-->
+        <form class="reservation__form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="reservation__item">
+            <label for="reservation__date">Дата заезда:</label>
+            <input id="reservation__date" type="date" name="arrival-date" value="" placeholder="24 Апреля 2017">
+          </p>
+          <p class="reservation__item">
+            <label for="reservation__date">Дата выезда:</label>
+            <input id="reservation__date" type="date" name="departure-date" value="" placeholder="4 Июля 2017">
+          </p>
+          <p class="reservation__item">
+            <label for="reservation__adult-num">Взрослые:</label>
+            <input id="reservation__adult-num" type="number" name="adults" value="" placeholder="2">
+          </p>
+          <p class="reservation__item">
+            <label for="reservation__children-num">Дети:</label>
+            <input id="reservation__children-num" type="number" name="children" value="" placeholder="0">
+          </p>
+            <button class="find__button" type="submit">Найти</button>
+        </form>
       </section>
     </main>
 
